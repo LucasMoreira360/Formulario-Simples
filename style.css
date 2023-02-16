@@ -1,4 +1,83 @@
-body{
+*{
   margin: 0 ;
   padding: 0;
+  font-family:sans-serif
+}
+.contact-us {
+  background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+  color: white;
+  padding: 40px;
+  font-size: 20px;
+
+}
+
+form{
+  padding: 40px;
+}
+
+.inputField{
+  padding: 10px;
+  
+
+}
+
+.inputField label{
+  display: block ;
+  font-size: 25px;
+  margin-bottom: 0.25px;
+  
+}
+
+.inputField input{
+  width: 320px;
+  padding: 10px;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.error{
+  font-size: 15px;
+  color: red;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  background-image:linear-gradient(to right, #2ad1f8, #8a58b9);
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+
+button{
+  padding: 10px 30px;
+  font-size: 20px;
+  background: none;
+  border: 1px solid purple;
+  border-radius: 7px;
+}
+
+button:hover{
+  background-image:linear-gradient(to right, #2ad1f8, #8a58b9);
+  color: white;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.invalid {
+  border: 1px solid red;
+
+}
+
+.error-hidden{
+  display: none;
+}
+
+.thanks{
+  padding: 40px;
+  text-align: center;
 }
